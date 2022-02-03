@@ -23,6 +23,8 @@ namespace WindowsStoreClone
         public MainWindow()
         {
             InitializeComponent();
+
+            //Here is a additional comment
         }
     }
 }
