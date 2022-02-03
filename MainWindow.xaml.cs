@@ -25,6 +25,16 @@ namespace WindowsStoreClone
             InitializeComponent();
 
             //Here is a additional comment
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
+            //added a few more lines
         }
     }
 }
