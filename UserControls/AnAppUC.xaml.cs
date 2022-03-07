@@ -34,6 +34,7 @@ namespace WindowsStoreClone.UserControls
             FileInfo myRandomFile = new FileInfo(imagesFilePaths[StaticRandom.Next(imagesFilePaths.Count)]);
             ProductImage.Source = new BitmapImage(new Uri(myRandomFile.FullName, UriKind.RelativeOrAbsolute));
 
+            //get the name of the image from the image file path
             AppNameText.Text = (new CultureInfo("en-US", false).TextInfo).ToTitleCase(myRandomFile.FullName.Split('\\').
                 Last().Split('-').Last().Split('.').First());
 
