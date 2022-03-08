@@ -21,3 +21,5 @@ C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.pdb
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\UserControls\AppsViewerUC.g.cs
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\UserControls\AppsViewerUC.baml
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.csproj.AssemblyReference.cache
+C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\UserControls\TopAppsUC.g.cs
+C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\UserControls\TopAppsUC.baml
