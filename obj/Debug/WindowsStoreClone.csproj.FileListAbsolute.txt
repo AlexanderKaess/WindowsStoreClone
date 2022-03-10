@@ -26,3 +26,4 @@ C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.csp
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.csproj.CopyComplete
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.exe
 C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.pdb
+C:\Users\WBAKAESS\source\repos\WindowsStoreClone\obj\Debug\WindowsStoreClone.csproj.AssemblyReference.cache

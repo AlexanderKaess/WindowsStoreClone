@@ -27,8 +27,18 @@
                     <StackPanel Name="MainHomeStackPanel" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Visible" Width="{Binding ElementName=MainScrollViewer,Path=ActualWidth}">
                         
                         <uc:TopAppsUC x:Name="TopApps" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl,Path=ActualWidth}" Margin="2"/>
+                        
                         <Label HorizontalAlignment="Left" Margin="10" Content="Featured apps" FontSize="40"/>
-                        <uc:AppsViewerUC x:Name="FeaturedAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer,Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                        <uc:AppsViewerUC x:Name="FeaturedAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                        
+                        <Label HorizontalAlignment="Left" Margin="10" Content="Most popular" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="MostPopularAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+
+                        <Label HorizontalAlignment="Left" Margin="10" Content="Top free apps" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="TopFreeAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                        
+                        <Label HorizontalAlignment="Left" Margin="10" Content="Top free games" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="TopFreeGamesAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
 
                     </StackPanel>
                 </ScrollViewer>
