@@ -30,18 +30,46 @@
                         
                         <Label HorizontalAlignment="Left" Margin="10" Content="Featured apps" FontSize="40"/>
                         <uc:AppsViewerUC x:Name="FeaturedAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
-                        
-                        <Label HorizontalAlignment="Left" Margin="10" Content="Most popular" FontSize="40"/>
-                        <uc:AppsViewerUC x:Name="MostPopularAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
-
-                        <Label HorizontalAlignment="Left" Margin="10" Content="Top free apps" FontSize="40"/>
-                        <uc:AppsViewerUC x:Name="TopFreeAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
-                        
-                        <Label HorizontalAlignment="Left" Margin="10" Content="Top free games" FontSize="40"/>
-                        <uc:AppsViewerUC x:Name="TopFreeGamesAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainScrollViewer, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
-
                     </StackPanel>
                 </ScrollViewer>
+            </TabItem>
+
+            <TabItem Header="Gaming" Name="GamingTab">
+                <StackPanel>
+                    <Label HorizontalAlignment="Left" Margin="10" Content="Top free games" FontSize="40"/>
+                    <uc:AppsViewerUC x:Name="GamesAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Entertainment" Name="EntertainmentTab">
+                <StackPanel>
+                    <Label HorizontalAlignment="Left" Margin="10" Content="Top free apps" FontSize="40"/>
+                    <uc:AppsViewerUC x:Name="EntertainmentAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Productivity" Name="ProductivityTab">
+                <ScrollViewer Name="ProductivityScrollViewer" Margin="10" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+                    <StackPanel Name="ProductivityStackPanel" Width="{Binding ElementName=ProductivityScrollViewer, Path=ActualWidth}">
+                        <uc:ProductivityTopAppsUC x:Name="ProductivityAppsViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                        
+                        <Label HorizontalAlignment="Left" Margin="10" Content="App Specials" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="ProductivityAppsViewer2" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+
+                        <Label HorizontalAlignment="Left" Margin="10" Content="Best selling apps" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="ProductivityAppsViewer3" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+
+                        <Label HorizontalAlignment="Left" Margin="10" Content="Favorite Apps" FontSize="40"/>
+                        <uc:AppsViewerUC x:Name="ProductivityAppsViewer4" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <TabItem Header="Deals" Name="DealsTab">
+                <StackPanel>
+                    <Label HorizontalAlignment="Left" Margin="10" Content="Apps specials" FontSize="40"/>
+                    <uc:AppsViewerUC x:Name="DealsAppViewer" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl, Path=ActualWidth}" Margin="2" Loaded="FeaturedAppsViewer_Loaded"/>
+                </StackPanel>
             </TabItem>
         </TabControl>
         
