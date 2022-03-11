@@ -23,7 +23,7 @@
 
         <TabControl x:Name="MainTabControl" Visibility="Visible" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="2" ClipToBounds="True">
             <TabItem Header="Home" Name="HomeTab">
-                <ScrollViewer Name="MainScrollViewer" Margin="10" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
+                <ScrollViewer Name="MainScrollViewer" Margin="10" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Loaded="MainScrollViewer_Loaded">
                     <StackPanel Name="MainHomeStackPanel" VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Visible" Width="{Binding ElementName=MainScrollViewer,Path=ActualWidth}">
                         
                         <uc:TopAppsUC x:Name="TopApps" HorizontalAlignment="Left" Width="{Binding ElementName=MainTabControl,Path=ActualWidth}" Margin="2"/>
